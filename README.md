@@ -7,7 +7,7 @@
 
 ## 运行
 1. 启动代理ip 需要配置 redis数据库，如本地已有redis数据库可跳过以下步骤
-   > cmd 进入 proxy文件夹中的redis文件中，输入 redis-server.exe redis.windows.conf 启动redis数据库&nbsp;
+   > cmd 进入 proxy文件夹中的redis文件中，输入 redis-server.exe redis.windows.conf 启动redis数据库（启动成功后的，cmd窗口不要关闭）&nbsp;
    
    > 在运行 步骤 2 
 2. proxy 文件中的ProxyPool-master为代理ip，启动该文件下的 run.py 即可。
